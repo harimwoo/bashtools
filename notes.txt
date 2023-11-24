@@ -5,6 +5,16 @@ curl -> retrieve info (curl -o -> stores info)
 traceroute -> network troubleshooting
 	traceroute google.com
 
+unzip
+	unzip file.zip
+	./start.sh
+	ps aux | grep process_name
+
+lsof -i :8080 # list info about the process using port 8080, including its PID
+	kill 12345 #kill the process id of 12345	
+	kill -9 12345 #forcefully terminate the process
+	kill -l #lists all available signals 
+
 crontab -> automated task at predefined time
 
 find -> find file in su 
