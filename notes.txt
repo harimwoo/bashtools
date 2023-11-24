@@ -2,6 +2,11 @@
 wget -> download 
 curl -> retrieve info (curl -o -> stores info)
 # Tools
+traceroute -> network troubleshooting
+	traceroute google.com
+
+crontab -> automated task at predefined time
+
 find -> find file in su 
 	find / -name filename
 
@@ -24,6 +29,17 @@ else
 fi 
 
 #iterations: for
-for i in {1..100}; do echo $i; done
+for i in {1..100};
+do
+	if [ `expr $i % 3' -eq 0 ]
+	then 
+		echo $i
+	fi;
+done
 
+#two parameters: count letter in word
+word=$1
+letter=$2
+
+grep -o $letter<<<$word | wc -l 
 
