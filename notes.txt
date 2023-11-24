@@ -1,0 +1,29 @@
+# Requests to server 
+wget -> download 
+curl -> retrieve info (curl -o -> stores info)
+# Tools
+find -> find file in su 
+	find / -name filename
+
+trap -> trapping signals
+	types of signals (SIGINT, SIGKILL, etc) 
+	traps a specific signal and perform a predefined task
+	trap "echo don't use the ctrl+c" SIGINT
+
+
+kill -> end a specific process
+	ex) kill -9 1111
+ 
+
+#if loop format
+if [ $a > $b ]
+then
+	task
+else
+	task
+fi 
+
+#iterations: for
+for i in {1..100}; do echo $i; done
+
+
