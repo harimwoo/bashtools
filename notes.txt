@@ -1,6 +1,12 @@
 # Requests to server 
 wget -> download 
-curl -> retrieve info (curl -o -> stores info)
+curl -> retrieve info
+	(curl -o -> stores info)
+	GET:
+		curl -o output.html www.google.com
+	POST:
+		curl --data "username=Harim&pw=password" https://google.com
+
 # Tools
 traceroute -> network troubleshooting
 	traceroute google.com
