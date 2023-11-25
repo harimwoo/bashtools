@@ -1,0 +1,5 @@
+# Download AWSCLI 
+sudo apt install awscli 
+# Configure 
+AWS configure
+
