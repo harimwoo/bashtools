@@ -59,3 +59,20 @@ letter=$2
 
 grep -o $letter<<<$word | wc -l 
 
+# Install Java in Debian
+sudo apt install dafault-jdk
+
+# Install Docker 
+https://docs.docker.com/engine/install/debian/
+
+# Set path JFROG_HOME=/home/harim
+https://jfrog.com/help/r/jfrog-installation-setup-documentation/install-artifactory-single-node-with-docker
+
+# make sure to add "SUDO" before docker run commands
+
+# make sure to change permission on VAR directory to 777
+so cd back into artifactory dir and from there change the permission. 
+
+# get public ip 
+curl ifconfig.me
+
