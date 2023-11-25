@@ -6,6 +6,10 @@ curl -> retrieve info
 		curl -o output.html www.google.com
 	POST:
 		curl --data "username=Harim&pw=password" https://google.com
+		curl localhost:8000/api/path -d '{"name": "HARIM"}' -H 'content-type: application/json'
+		curl localhost:8000/api/path -d @filename.json -H 'content-type:application/json'
+	-v: verbose method to get more info about path and connection exchange
+	-L: follow redirect
 
 # Tools
 traceroute -> network troubleshooting
